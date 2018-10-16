@@ -1,0 +1,54 @@
+#columns{
+  column-width: 350px;
+  /* border: 3px solid green; */
+  column-gap: 15px;
+}
+#columns figure{
+ display: inline-block;
+ border: 1px solid rgba(0,0,0,0.2);
+ margin: 0;
+ margin-bottom: 15px;
+ padding: 10px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+#columns figure img{
+  width: 100%;
+}
+#columns figure figcaption{
+  border-top: 1px solid rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-top: 11px;
+  color:white;
+  font-size: 0.8rem;
+  font-weight: 300px;
+}
+#header .avatar{
+  border-radius: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.25);
+  margin-bottom: 1.5rem;
+  margin-left: 650px;
+}
+#header .avatar img{
+  border-radius: 100%;
+  display: block;
+}
+h1{
+  margin-left: 150px;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 200px;
+  color: white;
+}
+body{
+
+  background-image: url( images/bg3.jpg);
+  background-size: cover;
+}
+@media (max-width:480px) {
+  #main .thumbnails{
+    display: block;
+  }
+}
