@@ -47,8 +47,4 @@ body{
   background-image: url( images/bg3.jpg);
   background-size: cover;
 }
-@media (max-width:480px) {
-  #main .thumbnails{
-    display: block;
-  }
-}
+ 
